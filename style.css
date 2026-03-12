@@ -1,0 +1,46 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f2f2f2;
+text-align:center;
+}
+
+header{
+background:black;
+color:white;
+padding:20px;
+}
+
+.produtos{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+padding:20px;
+}
+
+.card{
+background:white;
+width:250px;
+padding:15px;
+margin:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+button{
+background:#ff4d00;
+color:white;
+border:none;
+padding:10px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#e63e00;
+}

@@ -4,49 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Ofertas do Dia</title>
+    <title>Achadinhos da Shopee</title>
 
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <header>
-      <h1>🔥 Ofertas Imperdíveis</h1>
-
-      <p>Produtos selecionados com desconto</p>
+      <h1>🔥 Achadinhos da Shopee</h1>
 
       <input type="text" id="buscar" placeholder="Buscar produto..." />
+
+      <div class="categorias">
+        <button data-cat="todos">Todos</button>
+        <button data-cat="eletronico">Eletrônicos</button>
+        <button data-cat="relogio">Relógios</button>
+        <button data-cat="Roupas">Roupas</button>
+      </div>
     </header>
 
-    <section class="produtos">
-      <div class="produto">
-        <img
-          src="https://down-br.img.susercontent.com/file/sg-11134201-82633-mk49o9qtlvk7d5@resize_w900_nl.webp"
-        />
+    <main>
+      <section id="produtos" class="produtos"></section>
+    </main>
 
-        <h2>Bomba de Ar Portátil</h2>
-
-        <p>Compressor portátil 4 em 1 para carro, moto e bike.</p>
-
-        <a href="https://s.shopee.com.br/5AngIQOJ8k" target="_blank">
-          <button>Comprar Agora</button>
-        </a>
-      </div>
-
-      <div class="produto">
-        <img
-          src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m620ejpe24s26f.webp"
-        />
-
-        <h2>Relógio Masculino Luxo</h2>
-
-        <p>Relógio resistente à água.</p>
-
-        <a href="S https://s.shopee.com.br/6Kz2oo7xRV" target="_blank">
-          <button>Comprar Agora</button>
-        </a>
-      </div>
-    </section>
+    <footer>
+      <p>Site de ofertas afiliadas da Shopee</p>
+    </footer>
 
     <script src="script.js"></script>
   </body>
